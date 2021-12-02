@@ -1,0 +1,242 @@
+/* intialisation */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+/* navigation part */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: white;
+}
+#list {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  padding: 20px 0;
+}
+#list li {
+  list-style: none;
+}
+#list li a {
+  color: #747474;
+  text-decoration: none;
+}
+#list li a:hover {
+  color: #00b39b;
+}
+#About-us a {
+  color: #00b39b;
+}
+/* ****************************************************** */
+/* main */
+main {
+  margin-top: 5%;
+}
+/* introduction part */
+#introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 15%;
+  padding: 2%;
+}
+#introduction h1 {
+  color: #00b39b;
+  padding: 2% 0%;
+}
+#parag {
+  display: flex;
+}
+#parag p {
+  margin: 2% 5% 2% 0%;
+}
+/* 2nd part */
+#second-part {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2% 15%;
+  padding: 2%;
+}
+#For-patients {
+  margin: 10px;
+  padding: 3%;
+  width: 250px;
+  background-color: #00ccb1;
+  color: white;
+  border-radius: 30px;
+}
+#For-doctors {
+  margin: 10px;
+  padding: 3%;
+  width: 250px;
+  background-color: #3d83df;
+  color: white;
+  border-radius: 30px;
+}
+#For-clinics {
+  margin: 10px;
+  padding: 3%;
+  width: 250px;
+  background-color: #1b2734;
+  color: white;
+  border-radius: 30px;
+}
+#h {
+  margin: 15% 0;
+}
+/* 3rd part */
+#third-part {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 15%;
+  padding: 2%;
+}
+#third-part h1 {
+  text-align: left;
+  color: #00b39b;
+  padding-right: 5%;
+}
+#svgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+#svgs li {
+  margin: 2%;
+  list-style: none;
+  cursor: pointer;
+  fill: #747474;
+}
+#svgs li:hover {
+  fill: #00b39b;
+}
+/* 4th part */
+#fourth-part {
+  display: flex;
+  padding: 2%;
+  background-color: #e5faf8;
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  background-repeat: no-repeat;
+  background-position: 0 145%;
+}
+#stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#stats div {
+  background-color: white;
+  margin: 0%;
+  width: 250px;
+  padding: 3%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+.intro {
+  margin-left: 15%;
+}
+.intro h1 {
+  padding: 0 10% 10% 0;
+  color: #00b39b;
+}
+.intro {
+  padding: 0 10% 0 0;
+}
+/* 5th part */
+#fifth-part {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 15%;
+}
+#intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
+}
+#intro h1 {
+  color: #00b39b;
+}
+#intro h1,
+#intro p {
+  padding: 2%;
+  text-align: center;
+}
+#country {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#countries {
+  margin: 2%;
+  border-radius: 10px;
+}
+#countries img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#countries:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  cursor: pointer;
+}
+#countries div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+#btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3d83df;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+#btn:hover {
+  background-color: blue;
+}
+/* 6th part */
+#sixth-part {
+  display: flex;
+  margin: 2% 15%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sixth-part h1 {
+  margin-bottom: 5%;
+}
+/* ************************************************ */
+/* footer part */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  text-align: center;
+  padding: 1%;
+  font-size: 0.7em;
+}
+#links a:link {
+  text-decoration: none;
+}
+#links a:hover {
+  text-decoration: underline;
+}
